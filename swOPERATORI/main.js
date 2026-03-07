@@ -1,14 +1,16 @@
-let n1 = 10
+let annoCorrente = 2026;
 
-let n2 = 20
+let dataNascita = 1990;
 
-let n3 = 30
+let age = annoCorrente - dataNascita;
 
-let n4 = 40
+console.log(age);
 
-let n5 = 50
+let differenza = 100 - age;
+
+console.log(differenza);
+
+console.log(`Hai ${age} anni e ti mancano ${differenza} anni per arrivare a cento.`);
 
 
-console.log(`La somma tra i numeri equivale a ${n1+n2+n3+n4+n5}`)
 
-console.log(`La media equivale a ${150/5}`)

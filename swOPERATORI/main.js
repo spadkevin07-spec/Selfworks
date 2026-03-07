@@ -1,17 +1,17 @@
-let num1 = 50;
+let totGatti = 34;
 
-let num2 = 35;
+let filaGatti = 6;
 
-let addizione = num1 + num2;
+let totFile = Math.floor(totGatti / filaGatti);
+console.log(totFile);
 
-let sottrazione = num1 - num2;
+let gattiFuori = totGatti % filaGatti
+console.log(gattiFuori);
 
-let moltiplicazione = num1 * num2;
+let gattiMancanti = filaGatti - gattiFuori;
+console.log(gattiMancanti);
 
-let divisione = num1 / num2;
+console.log(`Ci sono ${totFile} file di gatti e mancano ${gattiMancanti} per un altra fila con un avanzano di ${gattiFuori}`);
 
-let potenza = num1 ** num2;
-
-console.log(`I risultati delle varie operazioni sono: somma ${addizione}, sottrazione ${sottrazione}, moltiplicazione ${moltiplicazione}, divisione ${divisione}, elevato alla potenza ${potenza},`);
 
 

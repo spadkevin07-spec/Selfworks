@@ -1,0 +1,142 @@
+*{
+     font-family: "Kedebideri", sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+h2, h3, h4{
+    font-family: "Quantico", sans-serif;
+
+}
+
+nav{
+    background-color: yellow;
+    padding: 20px 0px 20px 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
+    list-style-type: none;
+    margin: 0px;
+    font-size: 25px;
+}
+
+nav a{
+    color: white;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logo{
+    width: 200px;
+}
+
+.return, a{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.intestazioni{
+    text-align: center;
+    margin: 20px;
+}
+
+.articles{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.articleflex{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+}
+
+.bottonefreccia {
+    position: fixed;
+    bottom: 10%;
+    width: 50px;
+    border: 0px;
+    margin: 0px;
+    
+}
+
+
+footer{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    height: 30vh;
+}
+
+.imgbtn{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    border: 0px;
+    animation-name: imgbtn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: fixed;
+    top: 80vh;
+}
+
+@keyframes imgbtn{
+    0% {transform: translateY(100px)}
+    100% {transform: translateY(0px);}
+}
+
+@media screen and (max-width: 670px) {
+    .logo{
+        width: 70px;
+    }
+    
+    nav{
+        height: 20vh;
+    }
+
+    nav ul{
+        font-size: 15px;
+        align-items: center;
+        padding: 0px;
+        justify-content: space-between;
+    }
+
+    .articleflex{
+        width: 35vh;
+        align-items: center;
+    }
+
+    .articles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+

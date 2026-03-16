@@ -1,0 +1,106 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: rgb(20, 9, 37);
+}
+
+p{
+    font-weight: 100;
+}
+
+/* Variabili */
+
+:root{
+    --yl: rgb(235, 220, 14);
+    --w: rgb(248, 249, 250);
+    --vi: rgb(187, 38, 193);
+    --pl: rgb(27, 21, 64);
+}
+
+.text-yl{
+    color: var(--yl);
+}
+
+.text-w{
+    color: var(--w);
+}
+
+.bg-pl{
+    background-color: var(--pl);
+}
+
+.bg-yl{
+    background-color: var(--yl);
+}
+
+.bg-vi{
+    background-color: var(--vi);
+}
+
+.bor-yl{
+    border: 1px solid var(--yl);
+}
+
+.bor-vi{
+    border-bottom: 1.5px solid var(--vi);
+}
+
+/* First Section */
+
+.first-custom{
+    background-image: url(./Media/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-custom:hover{
+    background-color: var(--yl);
+}
+
+/* Third Custom */
+
+.third-custom{
+    min-height: 70vh;
+    background-image: url(./Media/bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-custom{
+    background-color: var(--pl);
+    padding: 70px 20px;
+    top: 100px;
+}
+
+input{
+    background-color: var(--pl);
+    border: none;
+    border-bottom: 1px solid var(--vi);
+}
+
+.calendar-form{
+    font-size: 50px;
+    margin-right: 20px;
+    background-color: var(--yl);
+    border-radius: 50%;
+    padding: 10px 20px;
+
+}
+
+/* Fourth Custom */
+
+.fourth-custom{
+    padding: 100px 20px;
+}
+
+/* Fifth Custom */
+
+.fifth-custom{
+    background-image: url(./Media/bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+

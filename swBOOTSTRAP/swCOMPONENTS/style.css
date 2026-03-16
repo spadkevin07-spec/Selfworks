@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+.nav-custom{
+    height: 80px;
+}
+
+.logo{
+    width: 50px;
+}
+
+header{
+    background-image: url(./Media/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+footer{
+    height: 80vh;
+}
+
+.accordion-custom{
+    border-radius: 20px;
+    overflow: hidden; 
+}
+
+.img-custom{
+    height: 45vh;
+}
